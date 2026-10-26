@@ -1,2 +1,13 @@
-# telegram-faq-bot
-Telegram bot for collecting client requests and answering FAQ, built with aiogram 3.
+# Telegram-бот для сбора заявок
+
+Бот отвечает на частые вопросы клиентов и собирает контактные данные для обратной связи.
+
+## Установка и запуск
+
+1. Скачайте проект и откройте его в терминале.
+2. Установите необходимые библиотеки командой:
+   `pip install -r requirements.txt`
+3. Переименуйте файл `.env.example` в `.env` и откройте его.
+4. Впишите туда ваш API-токен от бота и ваш Telegram ID (чтобы получать заявки).
+5. Запустите бота командой:
+   `python main.py`
